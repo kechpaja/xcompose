@@ -340,8 +340,8 @@ include "%L"
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
 <Multi_key> <slash> <u>                : "µ"   U00B5      # MICRO SIGN
 # Ordinal indicators, for femenine and masculine, used in Romance languages
-<Multi_key> <minus> <a>			: "ª"   U00AA           # FEMININE ORDINAL INDICATOR
-<Multi_key> <minus> <o>			: "º"	U00BA		# MASCULINE ORDINAL INDICATOR
+<Multi-Key> <Multi_key> <minus> <a>	      	  	: "ª"   U00AA		# FEMININE ORDINAL INDICATOR
+<Multi_key> <Multi_key> <minus> <o>			: "º"	U00BA		# MASCULINE ORDINAL INDICATOR
 
 # See also U03A3 (Greek capital sigma)
 <Multi_key> <Multi_key> <s> <u> <m>	: "∑"	U2211		# N-ARY SUMMATION
@@ -818,8 +818,8 @@ include "%L"
 # 2324 UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS a.k.a. NOT AMUSED
 # 237E BELL SYMBOL a.k.a. ALIENS LANDING
 
-<Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
-<Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
+<Multi_key> <Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
+<Multi_key> <Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
 
 <Multi_key> <Multi_key> <g> <a> <y>                 :   "⚣"     U26A3   # DOUBLED MALE SIGN
 <Multi_key> <Multi_key> <l> <e> <s> <b> <i> <a> <n> :   "⚢"     U26A2   # DOUBLED FEMALE SIGN
